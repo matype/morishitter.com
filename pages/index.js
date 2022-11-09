@@ -1,8 +1,8 @@
 import Head from "next/head"
-import Layout, { siteTitle } from "/components/Layout"
-import Concept from "/components/Concept"
-import LinkList from "/components/LinkList"
-import SocialList from "/components/SocialList"
+import Layout, { siteTitle } from "/components/layout"
+import Concept from "/components/concept"
+import LinkList from "/components/linkList"
+import SocialList from "/components/socialList"
 
 import styles from "/styles/home.module.css"
 

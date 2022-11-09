@@ -1,6 +1,6 @@
 import Head from "next/head"
-import Layout, { siteTitle } from "/components/Layout"
-import Bio from "/components/Bio"
+import Layout, { siteTitle } from "/components/layout"
+import Bio from "/components/bio"
 import Content from "/contents/interests.mdx"
 
 import styles from "/styles/interests.module.css"

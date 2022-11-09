@@ -1,4 +1,4 @@
-import Date from "/components/Date"
+import Date from "/components/date"
 import styles from "/styles/workMeta.module.css"
 
 export default function WorkMeta({ meta }) {

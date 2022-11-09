@@ -1,6 +1,6 @@
 import Head from "next/head"
-import Layout, { siteTitle } from "/components/Layout"
-import GalleryList from "/components/GalleryList"
+import Layout, { siteTitle } from "/components/layout"
+import GalleryList from "/components/galleryList"
 import { getSortedGalleriesData } from "/lib/gallery"
 
 import styles from "/styles/workIndex.module.css"

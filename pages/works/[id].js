@@ -1,7 +1,7 @@
 import Head from "next/head"
-import Layout, { siteTitle } from "/components/Layout"
-import GalleryList from "/components/GalleryList"
-import WorkMeta from "/components/WorkMeta"
+import Layout, { siteTitle } from "/components/layout"
+import GalleryList from "/components/galleryList"
+import WorkMeta from "/components/workMeta"
 import { getAllWorkIds } from "/lib/work"
 import { getSortedGalleriesData } from "/lib/gallery"
 

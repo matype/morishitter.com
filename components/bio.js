@@ -1,6 +1,6 @@
 import Image from "next/legacy/image"
 import Link from "next/link"
-import SocialList from "/components/SocialList"
+import SocialList from "/components/socialList"
 
 import styles from "/styles/bio.module.css"
 
