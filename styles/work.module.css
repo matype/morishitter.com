@@ -1,0 +1,61 @@
+.container {
+  margin: 3rem auto;
+  max-width: 44rem;
+  padding: 0 1.5rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+.markdown {
+  font-size: 1rem;
+  color: #333;
+  line-height: 2em;
+}
+
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-weight: bold;
+  margin: 3rem 0 1rem;
+}
+
+.markdown h2 {
+  font-size: 1.25rem;
+}
+
+.markdown h3 {
+  font-size: 1.125rem;
+}
+
+.markdown ul {
+  list-style: disc;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.markdown ul ul {
+  margin-top: 0;
+  list-style: circle;
+}
+
+.markdown p {
+  margin-top: 1rem;
+}
+
+.markdown strong {
+  font-weight: bold;
+}
+
+.markdown hr {
+  width: 50%;
+  height: 1px;
+  background-color: #fff;
+  margin: 3rem auto;
+}

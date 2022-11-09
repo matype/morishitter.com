@@ -1,0 +1,32 @@
+.container {
+  margin: 3rem auto;
+  max-width: 22rem;
+  padding: 0 1.5rem;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.description {
+  color: #777;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}

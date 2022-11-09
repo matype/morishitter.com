@@ -1,0 +1,8 @@
+.caution {
+  max-width: 80rem;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  color: #999;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}

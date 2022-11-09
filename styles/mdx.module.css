@@ -1,0 +1,9 @@
+.image {
+  margin: 3rem -1.5rem;
+}
+
+@media (max-width: 600px) {
+  .image {
+    margin: 2rem -1.5rem;
+  }
+}

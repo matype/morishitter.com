@@ -1,0 +1,38 @@
+.container {
+  margin: 5rem auto 3rem;
+  max-width: 44rem;
+  padding: 0 1.5rem;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  fill: #999;
+  transition: fill 0.4s ease-out;
+}
+
+.iconWrapper {
+  padding: 12.5px;
+}
+
+.twitter:hover svg {
+  fill: #1da1f2;
+}
+
+.github:hover svg {
+  fill: #181717;
+}
+
+.npm:hover svg {
+  fill: #cb3837;
+}
+
+.dribbble:hover svg {
+  fill: #ea4c89;
+}

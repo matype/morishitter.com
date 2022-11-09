@@ -1,0 +1,31 @@
+.container {
+  background-color: #111;
+  margin: 3rem calc(-50vw - -50%) 3rem;
+  overflow-x: auto;
+  padding: 2rem 0;
+}
+
+.inner {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 44rem;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meta {
+  margin: 1rem 2rem 1rem 0;
+}
+
+.meta_key {
+  color: #999;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.meta_value {
+  color: #ddd;
+  font-size: 0.875rem;
+  line-height: 2rem;
+}

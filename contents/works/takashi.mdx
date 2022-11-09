@@ -1,0 +1,34 @@
+export const metadata = {
+  title: "takashi の名刺",
+  client: "Takashi Nakagawa",
+  startDate: "2020-02-01",
+  endDate: "2020-02-01",
+}
+
+import Image from "next/legacy/image"
+import Date from "/components/Date"
+import mdxStyles from "/styles/mdx.module.css"
+
+友達の [Takashi Nakagawa](https://twitter.com/tak0303/status/1224503814159355904) の名刺をデザインしました。
+
+<div className={mdxStyles.image}>
+  <Image
+    priority
+    src={`/images/works/takashi/businesscard-3.jpg`}
+    width={1125}
+    height={751}
+    alt={"Businesscard for takashi"}
+    objectFit="contain"
+  />
+</div>
+
+<div className={mdxStyles.image}>
+  <Image
+    priority
+    src={`/images/works/takashi/businesscard-2.jpg`}
+    width={1125}
+    height={751}
+    alt={"Businesscard for takashi"}
+    objectFit="contain"
+  />
+</div>

@@ -1,0 +1,83 @@
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 2rem 1.5rem;
+  border-bottom: 1px solid #000;
+}
+
+.homeInner {
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.inner {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeTitle {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.detailTitle,
+.galleryTitle {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.titleLink {
+  color: inherit;
+}
+
+.footer {
+  padding: 3rem 1rem 5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #999;
+}
+
+.copy {
+  display: block;
+}
+
+.logo {
+  fill: #ddd;
+  width: 80px;
+  height: 50px;
+  margin: 0 auto;
+  transition: fill 0.4s ease-out;
+}
+
+.logo:hover {
+  fill: #000;
+}
+
+.hr {
+  width: 50%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 5rem auto;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.linkItem a {
+  color: inherit;
+}
+
+@media (max-width: 560px) {
+  .links {
+    display: none;
+  }
+}
