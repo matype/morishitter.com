@@ -19,12 +19,6 @@ export default function LinkList() {
           </Link>
         </li>
         <li className={styles.internalItem}>
-          <Link href={`/interests`}>
-            <div className={styles.title}>Interests</div>
-            <div className={styles.description}>"今"関心が高いこと</div>
-          </Link>
-        </li>
-        <li className={styles.internalItem}>
           <Link href={`/about`}>
             <div className={styles.title}>About</div>
             <div className={styles.description}>アバウトミー</div>
