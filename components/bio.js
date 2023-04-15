@@ -21,12 +21,6 @@ export default function Bio() {
       <p className={styles.description}>
         フリーランスのデザイナー。デジタルプロダクトのUIデザインを中心に、ブランディングからユーザー体験設計、ビジュアルデザインをおこなう。
       </p>
-      <div className={styles.links}>
-        <a href="https://moristapaper.com" target="_blank" rel="noopener">
-          ブログ
-        </a>
-        <Link href={`/works`}>作ったもの</Link>
-      </div>
       <SocialList />
     </section>
   )

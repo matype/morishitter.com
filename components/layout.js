@@ -31,9 +31,6 @@ export default function Layout({ children, home }) {
               </a>
             </li>
             <li className={styles.linkItem}>
-              <Link href={`/works`}>Works</Link>
-            </li>
-            <li className={styles.linkItem}>
               <Link href={`/about`}>About / Contact</Link>
             </li>
           </ul>
