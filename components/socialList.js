@@ -17,7 +17,7 @@ export default function LinkList() {
           </a>
         </li>
         <li>
-          <a href="https://github.com/morishitter" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/masaakim" target="_blank" rel="noopener noreferrer">
             <div className={`${styles.iconWrapper} ${styles.github}`}>
               <div className={`${styles.icon}`}>
                 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
