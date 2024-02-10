@@ -26,12 +26,7 @@ export default function Layout({ children, home }) {
           </h1>
           <ul className={styles.links}>
             <li className={styles.linkItem}>
-              <a href="https://moristapaper.com" target="_blank" rel="noopener">
-                Blog
-              </a>
-            </li>
-            <li className={styles.linkItem}>
-              <Link href={`/about`}>About / Contact</Link>
+              <Link href={`https://masaaki.me`}>About / Contact</Link>
             </li>
           </ul>
         </div>
